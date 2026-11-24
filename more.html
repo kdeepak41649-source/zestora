@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Dishes - Zestora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <div class="wrapper topbar-row">
+                <p><i class="fa-solid fa-location-dot"></i> Fast delivery in 25 minutes</p>
+                <div class="topbar-links">
+                    <a href="#"><i class="fa-solid fa-phone"></i> +1 800 123 456</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> hello@zestora.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <nav class="navbar flex between">
+                <a href="index.html" class="logo">Zestora.</a>
+                <ul class="navlist flex gap-3">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li><a href="more.html">More</a></li>
+                </ul>
+                <div class="desktop-action flex gap-2">
+                    <a href="#" class="cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="cart-value">0</span>
+                    </a>
+                    <a href="#" class="btn login-trigger">
+                        sign in
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                    <a href="#" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <ul class="mobile-menu" id="mobileMenu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li><a href="more.html">More</a></li>
+                    <li><a href="index.html#login" class="btn">Sign in <i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="more-page wrapper">
+            <div class="section-heading full-width">
+                <span class="eyebrow">More Dishes</span>
+                <h2>More favorites are waiting for you</h2>
+                <p class="section-copy">Browse a wider selection of delicious meals ready to be enjoyed.</p>
+            </div>
+            <div class="pending-grid">
+                <article class="pending-card" data-food="Pizza" data-price="299">
+                    <img src="images/pza.jpg" alt="Fresh pizza with melted cheese" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Pizza</h3>
+                        <p>Classic Margherita, BBQ Chicken, and Veggie supreme options for every craving.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹299</strong><button class="remove-food" type="button" aria-label="Remove Pizza">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Burger" data-price="249">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/020/290/071/small/fresh-tasty-burger-isolated-on-white-background-photo.jpg" alt="Juicy burger stacked with toppings" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Burger</h3>
+                        <p>Cheesy, spicy, and double stack burgers ready for the next delivery wave.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹249</strong><button class="remove-food" type="button" aria-label="Remove Burger">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Pasta" data-price="219">
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80" alt="Creamy pasta dish served hot" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Pasta</h3>
+                        <p>Creamy Alfredo, spicy Arrabiata, and garlic butter pasta with strong customer demand.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹219</strong><button class="remove-food" type="button" aria-label="Remove Pasta">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Tacos" data-price="179">
+                    <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=900&q=80" alt="Colorful tacos with fresh toppings" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Tacos</h3>
+                        <p>Fresh tacos filled with grilled protein, crunchy slaw, and zesty sauces.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹179</strong><button class="remove-food" type="button" aria-label="Remove Tacos">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Salads" data-price="159">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPlD4m9JIKbmz1Db0fN2RfsU13Nvd7kWcE6YkepFVrA&s=10" alt="Fresh salad bowl with vegetables" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Salads</h3>
+                        <p>Healthy bowls topped with crisp greens, nuts, fruits, and house dressings.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹159</strong><button class="remove-food" type="button" aria-label="Remove Salads">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Drinks" data-price="99">
+                    <img src="images/drnk.jpg" alt="Glass of iced coffee" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Drinks</h3>
+                        <p>Includes fresh lemonade, mango smoothie, iced coffee, and cold brew for every craving.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹99</strong><button class="remove-food" type="button" aria-label="Remove Drinks">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Fried Chicken" data-price="279">
+                    <img src="https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=900&q=80" alt="Crispy fried chicken meal" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Fried Chicken</h3>
+                        <p>Crunchy fried chicken served with slaw, fries, and a spicy dip.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹279</strong><button class="remove-food" type="button" aria-label="Remove Fried Chicken">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Sushi" data-price="349">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Delicious sushi platter" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Sushi</h3>
+                        <p>Fresh sushi rolls and sashimi with a mix of classic and premium flavors.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹349</strong><button class="remove-food" type="button" aria-label="Remove Sushi">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article class="pending-card" data-food="Noodles" data-price="189">
+                    <img src="images/ndle.jpg"Vegetarian noodles and vegetables" class="pending-card-image">
+                    <div class="pending-card-content">
+                        <h3>Noodles</h3>
+                        <p>Hot stir-fried noodles with sauces, vegetables, and your choice of toppings.</p>
+                        <div class="more-order-row"><strong class="meal-price">₹189</strong><button class="remove-food" type="button" aria-label="Remove Noodles">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper footer-grid">
+            <div class="footer-brand">
+                <a href="index.html#home" class="logo">Zestora.</a>
+                <p>Fast, friendly food delivery with quality you can taste.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-group">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-group">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> +1 800 123 456</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> hello@zestora.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> 123 Food Street, NY</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper footer-bottom">
+            <p class="footer-note">&copy; 2026 Zestora. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        hamburger?.addEventListener('click', function (event) {
+            event.preventDefault();
+            const isOpen = mobileMenu.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', String(isOpen));
+        });
+        mobileMenu?.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                mobileMenu.classList.remove('active');
+                hamburger?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        const savedCart = JSON.parse(localStorage.getItem('zestoraCart') || '{"count":0,"total":0}');
+        const cart = {
+            count: Number(savedCart.count) || 0,
+            total: Number(savedCart.total) || 0,
+            items: Array.isArray(savedCart.items) ? savedCart.items : []
+        };
+        const cartValues = document.querySelectorAll('.cart-value');
+
+        function updateCart() {
+            cartValues.forEach(function (value) { value.textContent = cart.count; });
+            document.querySelectorAll('.food-count').forEach(function (value) {
+                const item = value.closest('[data-food]');
+                value.textContent = cart.items.filter(function (food) {
+                    return food.name === item.dataset.food;
+                }).length;
+            });
+            localStorage.setItem('zestoraCart', JSON.stringify(cart));
+        }
+
+        document.querySelectorAll('.add-food').forEach(function (button) {
+            button.addEventListener('click', function () {
+                const item = this.closest('[data-food]');
+                const food = { name: item.dataset.food, price: Number(item.dataset.price) };
+                cart.count += 1;
+                cart.total += food.price;
+                cart.items.push(food);
+                updateCart();
+                this.textContent = 'Added ✓';
+                setTimeout(function () { button.innerHTML = 'Add <i class="fa-solid fa-plus"></i>'; }, 700);
+            });
+        });
+
+        document.querySelectorAll('.remove-food').forEach(function (button) {
+            button.addEventListener('click', function () {
+                const item = this.closest('[data-food]');
+                const itemIndex = cart.items.findLastIndex(function (food) {
+                    return food.name === item.dataset.food;
+                });
+                if (itemIndex === -1) return;
+                const removedItem = cart.items.splice(itemIndex, 1)[0];
+                cart.count = Math.max(0, cart.count - 1);
+                cart.total = Math.max(0, cart.total - removedItem.price);
+                updateCart();
+            });
+        });
+
+        document.querySelector('.cart-icon')?.addEventListener('click', function (event) {
+            event.preventDefault();
+            window.location.href = 'index.html#menu';
+        });
+        updateCart();
+    </script>
+</body>
+</html>

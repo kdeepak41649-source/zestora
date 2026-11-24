@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zestora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header part -->
+    <header class="site-header">
+        <div class="topbar">
+            <div class="wrapper topbar-row">
+                <p><i class="fa-solid fa-location-dot"></i> Fast delivery in 25 minutes</p>
+            </div>
+        </div>
+        <div class="wrapper"> 
+            <nav class="navbar flex between">
+                <a href="#home" class="logo" aria-label="Zestora home">
+                    <span class="logo-mark" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" focusable="false">
+                            <path d="M12 25h24l-2.6 9.2a4 4 0 0 1-3.9 2.8h-11a4 4 0 0 1-3.9-2.8L12 25Z" />
+                            <path d="M10 24a14 14 0 0 1 28 0H10Z" />
+                            <path d="M7 11v9m4-9v9m-2-9v16m32-16-4 10h4v6" />
+                            <path d="M22 17c1-4 4-6 9-6-1 4-4 6-9 6Zm0 0c-1-3-3-4-6-4 1 3 3 4 6 4Z" class="logo-leaf" />
+                        </svg>
+                    </span>
+                    <span class="logo-word">Zest<span>ora</span><i>.</i></span>
+                </a>
+                <!-- DESKTOP MENU -->
+                <ul class="navlist flex gap-3">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#menu" class="menu-trigger">Menu</a>
+                    </li>
+                    <li>
+                        <a href="more.html" onclick="window.location='more.html'">More</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="desktop-action flex gap-2">
+                    <a href="#" class="cart-icon" aria-label="Shopping cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="cart-value">0</span>
+                    </a>
+                    <a href="#" class="btn login-trigger">
+                        sign in
+                        &nbsp;
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </a>
+                    <a href="#" class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <!-- MOBILE MENU -->
+                <ul class="mobile-menu" id="mobileMenu">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+RF                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="more.html" onclick="window.location='more.html'">More</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn">
+                            sign in
+                            &nbsp;
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- SECTIONS PART -->
+    <main>
+        <section id="home" class="hero-section">
+            <div class="wrapper hero-grid">
+                <div class="content">
+                    <span class="eyebrow">Fresh flavors, delivered with care</span>
+                    <h1>
+                        Good food,
+                        <span>great mood.</span>
+                    </h1>
+                    <p class="para">Freshly made favorites, chef-crafted bowls, and comforting classics—delivered straight to your door.</p>
+                    <div class="hero-actions flex gap-2">
+                        <a href="#" class="btn">Order Now</a>
+                        <a href="#menu" class="hero-link menu-trigger">Explore menu</a>
+                    </div>
+                    <div class="hero-highlight flex gap-2">
+                        <div class="highlight-card">
+                            <span class="highlight-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                            <div>
+                                <strong>Fast delivery</strong>
+                                <p>Orders arrive within 40 minutes or less.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-icon"><i class="fa-solid fa-star"></i></span>
+                            <div>
+                                <strong>Top rated</strong>
+                                <p>4.6/5 customer satisfaction score.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-icon"><i class="fa-solid fa-bell-concierge"></i></span>
+                            <div>
+                                <strong>Fresh picks</strong>
+                                <p>Daily chef specials for every craving.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80" alt="Fresh healthy meal platter" class="img hero-image">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Delicious burger meal" class="img hero-image hero-image-small">
+                    <div class="image-badge">
+                        <i class="fa-solid fa-fire"></i>
+                        Fresh & hot
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section wrapper">
+            <div class="section-heading">
+                <span class="eyebrow">Featured Menu</span>
+                <h2>Popular meals ready to order</h2>
+                <p class="section-copy">Choose from chef favorites, healthy bowls, and comfort classics — all delivered fresh.</p>
+            </div>
+            <div class="process-grid">
+                    <article id="chef-special" class="process-card meal-card" data-food="Chef's Special" data-price="249">
+                    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="Chef's special dish" class="meal-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-bowl-food"></i>
+                        </div>
+                        <h3>Chef's Special</h3>
+                        <p>Flavorful daily specials made with fresh ingredients and bold spices.</p>
+                        <div class="meal-order-row"><strong class="meal-price">₹249</strong><button class="remove-food" type="button" aria-label="Remove Chef's Special">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article id="healthy-bowls" class="process-card meal-card" data-food="Healthy Bowls" data-price="199">
+                    <img src="images/bowls.jpg" alt="Healthy bowl dish" class="meal-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <h3>Healthy Bowls</h3>
+                        <p>Balanced meals with greens, grains, and lean proteins to fuel your day.</p>
+                        <div class="meal-order-row"><strong class="meal-price">₹199</strong><button class="remove-food" type="button" aria-label="Remove Healthy Bowls">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+                <article id="comfort-classics" class="process-card meal-card" data-food="Comfort Classics" data-price="229">
+                    <img src="images/burgers.jpg" alt="Comfort classic meal" class="meal-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-hamburger"></i>
+                        </div>
+                        <h3>Comfort Classics</h3>
+                        <p>Warm, satisfying favorites made to feel like home.</p>
+                        <div class="meal-order-row"><strong class="meal-price">₹229</strong><button class="remove-food" type="button" aria-label="Remove Comfort Classics">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food" type="button">Add <i class="fa-solid fa-plus"></i></button></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="services" class="process-section wrapper">
+            <div class="section-heading">
+                <span class="eyebrow">How it works</span>
+                <h2>Our simple delivery process</h2>
+                <p class="section-copy">From choosing a meal to enjoying it at home, every step is built for speed, freshness, and happiness.</p>
+            </div>
+            <div class="process-grid">
+                <article class="process-card process-with-image">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80" alt="Selecting food online" class="process-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <h3>Choose Your Favorites</h3>
+                        <p>Browse fresh dishes, filter by cuisine, and select meals that fit your cravings.</p>
+                    </div>
+                </article>
+                <article class="process-card process-with-image">
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80" alt="Chef preparing food" class="process-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <h3>Prepare With Care</h3>
+                        <p>Our chefs cook each order fresh, using quality ingredients and trusted recipes.</p>
+                    </div>
+                </article>
+                <article class="process-card process-with-image">
+                    <img src="images/track.jpg" alt="Food delivery tracking illustration" class="process-image">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <h3>Track Your Delivery</h3>
+                        <p>See your order status in real time and receive it hot with contactless delivery.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="features wrapper">
+            <div class="section-heading full-width">
+                <span class="eyebrow">Why choose us</span>
+                <h2>Everything you need for a better food experience</h2>
+                <p class="section-copy">From quick ordering to dependable delivery, we bring comfort, flavor, and reliability together in one place.</p>
+            </div>
+            <article class="feature-card feature-with-image">
+                <img src="IMAGES/CUSTOMER.jpg" alt="Food support service" class="feature-image">
+                <div class="feature-content">
+                    <h3>24/7 Support</h3>
+                    <p>Need help? Our support team is ready to assist your order at any time.</p>
+                </div>
+            </article>
+            <article class="feature-card feature-with-image">
+                <img src="IMAGES/secure payment.jpg" alt="Secure online payment" class="feature-image">
+                <div class="feature-content">
+                    <h3>Secure Payment</h3>
+                    <p>Pay safely online with multiple payment options and zero hassle.</p>
+                </div>
+            </article>
+            <article class="feature-card feature-with-image">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Fresh ingredients" class="feature-image">
+                <div class="feature-content">
+                    <h3>Fresh Ingredients</h3>
+                    <p>We partner with local suppliers to keep every meal fresh and flavorful.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="login" class="login-info-section wrapper">
+            <div class="login-info-card">
+                <span class="eyebrow">Member login</span>
+                <h2>Welcome back to Zestora</h2>
+                <p>Sign in to track your orders, save favorites, and unlock exclusive deals.</p>
+                <form class="login-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <input type="password" placeholder="Enter your password" required>
+                    <div class="login-actions flex between">
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                        <button type="submit" class="btn">Login</button>
+                    </div>
+                </form>
+            </div>
+            <div class="login-info-side">
+                <h3>Why join us?</h3>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Fast checkout on future orders</li>
+                    <li><i class="fa-solid fa-check"></i> Exclusive discounts and offers</li>
+                    <li><i class="fa-solid fa-check"></i> Real-time delivery updates</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div class="menu-modal" id="menuModal">
+        <div class="menu-modal-content">
+            <button class="close-menu" id="closeMenu" aria-label="Close menu">&times;</button>
+            <div class="menu-header">
+                <span class="eyebrow">Today's special</span>
+                <h2>Explore Our Menu</h2>
+            </div>
+            <div class="menu-list">
+                <div class="menu-item" data-food="Chef's Special" data-price="249">
+                    <div>
+                        <h3>Chef's Special</h3>
+                        <p>Daily chef favorites made with bold spices.</p>
+                    </div>
+                    <button class="remove-food" type="button" aria-label="Remove Chef's Special">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹249 +</button>
+                </div>
+                <div class="menu-item alt-item" data-food="Healthy Bowls" data-price="199">
+                    <div>
+                        <h3>Healthy Bowls</h3>
+                        <p>Fresh greens, grains, and lean protein.</p>
+                    </div>
+                    <button class="remove-food" type="button" aria-label="Remove Healthy Bowls">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹199 +</button>
+                </div>
+                <div class="menu-item" data-food="Comfort Classics" data-price="229">
+                    <div>
+                        <h3>Comfort Classics</h3>
+                        <p>Warm favorites that feel like home.</p>
+                    </div>
+                    <button class="remove-food" type="button" aria-label="Remove Comfort Classics">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹229 +</button>
+                </div>
+                <div class="menu-item alt-item" data-food="Pizza" data-price="299">
+                    <div>
+                        <h3>Pizza</h3>
+                        <p>Classic cheesy pizza with fresh toppings.</p>
+                    </div>
+                    <button class="remove-food" type="button" aria-label="Remove Pizza">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹299 +</button>
+                </div>
+                <div class="menu-item" data-food="Burger" data-price="249">
+                    <div><h3>Burger</h3><p>Juicy burger layered with fresh toppings.</p></div>
+                    <button class="remove-food" type="button" aria-label="Remove Burger">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹249 +</button>
+                </div>
+                <div class="menu-item alt-item" data-food="Pasta" data-price="219">
+                    <div><h3>Pasta</h3><p>Creamy pasta tossed with herbs and sauce.</p></div>
+                    <button class="remove-food" type="button" aria-label="Remove Pasta">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹219 +</button>
+                </div>
+                <div class="menu-item" data-food="Tacos" data-price="179">
+                    <div><h3>Tacos</h3><p>Fresh tacos with grilled filling and salsa.</p></div>
+                    <button class="remove-food" type="button" aria-label="Remove Tacos">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹179 +</button>
+                </div>
+                <div class="menu-item alt-item" data-food="Fresh Drinks" data-price="99">
+                    <div><h3>Fresh Drinks</h3><p>Lemonade, smoothies, and iced coffee.</p></div>
+                    <button class="remove-food" type="button" aria-label="Remove Fresh Drinks">−</button><span class="food-count" aria-live="polite">0</span><button class="add-food menu-add" type="button">₹99 +</button>
+                </div>
+            </div>
+            <div class="order-summary">
+                <span><strong class="summary-count">0</strong> items added</span>
+                <strong class="summary-total">₹0</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-modal" id="loginModal">
+        <div class="login-modal-content">
+            <button class="close-login" id="closeLogin" aria-label="Close login form">&times;</button>
+            <h2>Welcome Back</h2>
+            <p>Sign in to continue your tasty journey.</p>
+            <form class="login-form-modal">
+                <input type="email" placeholder="Enter your email address" required>
+                <input type="password" placeholder="Enter your password" required>
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="contact" class="footer">
+        <div class="wrapper footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo" aria-label="Zestora home">
+                    <span class="logo-mark" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" focusable="false">
+                            <path d="M12 25h24l-2.6 9.2a4 4 0 0 1-3.9 2.8h-11a4 4 0 0 1-3.9-2.8L12 25Z" />
+                            <path d="M10 24a14 14 0 0 1 28 0H10Z" />
+                            <path d="M7 11v9m4-9v9m-2-9v16m32-16-4 10h4v6" />
+                            <path d="M22 17c1-4 4-6 9-6-1 4-4 6-9 6Zm0 0c-1-3-3-4-6-4 1 3 3 4 6 4Z" class="logo-leaf" />
+                        </svg>
+                    </span>
+                    <span class="logo-word">Feed<span>Hub</span><i>.</i></span>
+                </a>
+                <p>Fast, friendly food delivery with quality you can taste.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-group">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-group">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> +1 800 123 456</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> hello@zestora.com</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i> 123 Food Street, NY</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper footer-bottom">
+            <p class="footer-note">&copy; 2026 Zestora. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        hamburger?.addEventListener('click', function (event) {
+            event.preventDefault();
+            const isOpen = mobileMenu.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', String(isOpen));
+        });
+        mobileMenu?.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                mobileMenu.classList.remove('active');
+                hamburger?.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        const loginTrigger = document.querySelector('.login-trigger');
+        const detailTrigger = document.querySelector('.detail-trigger');
+        const loginModal = document.getElementById('loginModal');
+        const closeLoginBtn = document.getElementById('closeLogin');
+        const menuTriggers = document.querySelectorAll('.menu-trigger');
+        const menuModal = document.getElementById('menuModal');
+        const closeMenuBtn = document.getElementById('closeMenu');
+        const cartTriggers = document.querySelectorAll('.cart-icon');
+        const cartValues = document.querySelectorAll('.cart-value');
+        const summaryCount = document.querySelector('.summary-count');
+        const summaryTotal = document.querySelector('.summary-total');
+        const savedCart = JSON.parse(localStorage.getItem('zestoraCart') || '{"count":0,"total":0}');
+        let cart = {
+            count: Number(savedCart.count) || 0,
+            total: Number(savedCart.total) || 0,
+            items: Array.isArray(savedCart.items) ? savedCart.items : []
+        };
+        const openLoginModal = function (e) {
+            e?.preventDefault();
+            loginModal.classList.add('active');
+        };
+
+        loginTrigger?.addEventListener('click', openLoginModal);
+
+        detailTrigger?.addEventListener('click', openLoginModal);
+        detailTrigger?.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                openLoginModal(e);
+            }
+        });
+
+        closeLoginBtn?.addEventListener('click', function () {
+            loginModal.classList.remove('active');
+        });
+
+        loginModal?.addEventListener('click', function (e) {
+            if (e.target === loginModal) {
+                loginModal.classList.remove('active');
+            }
+        });
+
+        menuTriggers.forEach(function (trigger) {
+            trigger.addEventListener('click', function (e) {
+                e.preventDefault();
+                menuModal.classList.add('active');
+            });
+        });
+
+        function updateCart() {
+            cartValues.forEach(function (value) { value.textContent = cart.count; });
+            document.querySelectorAll('.food-count').forEach(function (value) {
+                const item = value.closest('[data-food]');
+                value.textContent = cart.items.filter(function (food) {
+                    return food.name === item.dataset.food;
+                }).length;
+            });
+            if (summaryCount) summaryCount.textContent = cart.count;
+            if (summaryTotal) summaryTotal.textContent = `₹${cart.total}`;
+            localStorage.setItem('zestoraCart', JSON.stringify(cart));
+        }
+
+        document.querySelectorAll('.add-food').forEach(function (button) {
+            button.addEventListener('click', function () {
+                const item = this.closest('[data-food]');
+                const food = { name: item.dataset.food, price: Number(item.dataset.price) };
+                cart.count += 1;
+                cart.total += food.price;
+                cart.items.push(food);
+                updateCart();
+                this.textContent = 'Added ✓';
+                setTimeout(function () { button.innerHTML = 'Add <i class="fa-solid fa-plus"></i>'; }, 700);
+            });
+        });
+
+        document.querySelectorAll('.remove-food').forEach(function (button) {
+            button.addEventListener('click', function () {
+                const item = this.closest('[data-food]');
+                const itemIndex = cart.items.findLastIndex(function (food) {
+                    return food.name === item.dataset.food;
+                });
+                if (itemIndex === -1) return;
+                const removedItem = cart.items.splice(itemIndex, 1)[0];
+                cart.count = Math.max(0, cart.count - 1);
+                cart.total = Math.max(0, cart.total - removedItem.price);
+                updateCart();
+            });
+        });
+
+        cartTriggers.forEach(function (trigger) {
+            trigger.addEventListener('click', function (e) {
+                e.preventDefault();
+                menuModal.classList.add('active');
+            });
+        });
+
+        closeMenuBtn?.addEventListener('click', function () {
+            menuModal.classList.remove('active');
+        });
+
+        menuModal?.addEventListener('click', function (e) {
+            if (e.target === menuModal) {
+                menuModal.classList.remove('active');
+            }
+        });
+
+        updateCart();
+    </script>
+</body>
+</html>
